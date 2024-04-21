@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Table from './component/Table/Table';
 import './App.css';
+import Transaction from './component/Show-transaction/Transaction';
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Table/> */}
+     <Routes>
+     <Route path='/' element={<Table />} />
+     <Route path='/transaction' element={<Transaction />} />
+     </Routes>
+
+     {/* <Transaction/> */}
+    
+    
     </div>
   );
 }

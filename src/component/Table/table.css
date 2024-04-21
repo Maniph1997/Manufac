@@ -1,0 +1,65 @@
+.userTable{
+    /* text-align: center; */
+    width: 90%;
+    background-color: rgb(241, 216, 216);
+    box-shadow: 1px 1px 8px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.table{
+    margin: 30px 0;
+}
+
+.dashboard-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: 800;
+}
+.dropdown select{
+  
+   height: 40px;
+   width: 160px;
+   font-size: 22px;
+   font-weight: bold;
+   border-radius: 10px;
+   outline: none;
+   
+
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar input{
+    font-size: 22px;
+    height: 30px;
+    
+    font-size: 22px;
+    
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}

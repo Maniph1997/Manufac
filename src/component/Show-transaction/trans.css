@@ -1,0 +1,30 @@
+.main-container{
+    width: 60%;
+    background-color: rgb(241, 216, 216);
+    box-shadow: 1px 1px 8px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+.tran{
+    text-align: center;
+}
+
+.container ul{
+    
+    list-style: none;
+}
+.container ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+.back{
+    margin-left: 600px;
+    font-size: 40px;
+    font-weight: 800px;
+  
+    cursor: pointer;
+   color: red;
+    
+}
